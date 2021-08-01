@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    padding: 7px 7px;
+    margin-left: 100px;
+    letter-spacing: 1px;
+    align-content: center;
+}
+.navbar{
+    padding-left: 21px;
+    justify-content: space-around;
+    display: flex;
+    width: 40%;
+    word-spacing: 9px;
+}
+.navbar a{
+   text-align: left;
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+   letter-spacing: 2px;
+   font-weight: 2px;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+.navbar a:hover{
+    color: rgb(0, 132, 255);
+}
+.content{
+    background-color: rgb(8, 15, 34);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    padding-bottom: 25px;
+    
+}
+.footer{
+   
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.copywright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.coloum{
+    display: flex;
+    margin-left: 70px;
+}
+.card{
+    
+    padding: 16px;
+    box-shadow: rgb(8, 15, 34);
+    transition: 0.3s;
+    width: 30%;
+    background-color: #f1f1f1;
+   
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0.2);
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px 16px;
+    text-align: center;
+
+}
+
+.pomo{
+    background-color: rgb(8, 15, 34);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+    margin-bottom: -70px;
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(8, 15, 34);
+    text-align: center;
+}
