@@ -8,7 +8,7 @@ nav{
     display: flex;
     background-color: black;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 }
 .logo{
 
@@ -114,7 +114,7 @@ padding-bottom: 20px;
 }
 h3{
     color: white;
-    font-family: sans-serif;
+    font-family:  sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgb(8, 15, 34);
