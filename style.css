@@ -6,6 +6,9 @@
 body {
   font-family: Arial, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* Navigation */
 nav {
   display: flex;
